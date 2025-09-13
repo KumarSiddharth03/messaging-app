@@ -20,23 +20,6 @@ This repository contains a minimal full-stack messaging app scaffold:
    ```
 5. Open http://localhost:5173
 
-## How to push to GitHub
-```
-cd /path/to/messaging-app
-git init
-git add .
-git commit -m "Initial scaffold: messaging app server+client"
-gh repo create your-username/messaging-app --public --source=. --remote=origin
-git push -u origin main
-```
-If you don't have `gh` CLI, create a repo on github.com and add the remote:
-```
-git remote add origin https://github.com/<your-username>/<repo>.git
-git branch -M main
-git push -u origin main
-```
-
-
 ## Seed data
 
 To populate dummy users/messages/contacts run:
